@@ -18,7 +18,7 @@ const app = express();
 
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://Conna:papasfritas131092@clusterdb.o809le3.mongodb.net/tienda');
+mongoose.connect(`${process.env.MONGO_URI}tienda`);
 
 const port = process.env.PORT;
 
