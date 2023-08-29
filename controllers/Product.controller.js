@@ -2,76 +2,112 @@ const products = async (req, res) => {
   const products = [
     {
       id: 1,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/chalas.jpg",
+      name: "Jeans Wide Leg",
+      price: 19.990,
+      img: [
+        "../../public/assets/pantalon1.jpeg",
+        "../../public/assets/pantalon2.jpeg",
+        "../../public/assets/pantalon3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Jeans Wide Leg Tiro Alto Mujer",
     },
     {
       id: 2,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/pantalon.jpeg",
+      name: "Polera Manga Corta",
+      price: 14.990,
+      img: [
+        "../../public/assets/polera1.jpeg",
+        "../../public/assets/polera2.jpeg",
+        "../../public/assets/polera3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Polera Manga Corta Algodón Rosada",
     },
     {
       id: 3,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/polera.jpeg",
+      name: "Kimono",
+      price: 24.990,
+      img: [
+        "../../public/assets/Kimono1.jpeg",
+        "../../public/assets/kimono2.jpeg",
+        "../../public/assets/kimono3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Kimono Mujer Manga Corta",
     },
 
     {
       id: 4,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/polera2.jpeg",
+      name: "Chaleco Mujer Negro",
+      price: 24.990,
+      img: [
+        "../../public/assets/chaleco1.jpeg",
+        "../../public/assets/chaleco2.jpeg",
+        "../../public/assets/chaleco3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Chaleco Mujer Negro Con Brillos",
     },
     {
       id: 5,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/poleron.jpeg",
+      name: "Falda Corta",
+      price: 19.990,
+      img: [
+        "../../public/assets/falda1.jpeg",
+        "../../public/assets/falda2.jpeg",
+        "../../public/assets/falda3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Falda Corta Algodón Mujer Celeste",
     },
     {
       id: 6,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/poleron2.jpeg",
+      name: "Falda Short",
+      price: 19.990,
+      img: [
+        "../../public/assets/FaldaShort1.jpeg",
+        "../../public/assets/FaldaShort2.jpeg",
+        "../../public/assets/FaldaShort3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Falda Short Corta Algodón Mujer Color Negro",
     },
     {
       id: 7,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/poleron3.jpeg",
+      name: "Vestido Corto",
+      price: 24.990,
+      img: [
+        "../../public/assets/Vestido1.jpeg",
+        "../../public/assets/Vestido2.jpeg",
+        "../../public/assets/Vestido3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Vestido Corto Mujer Color negro",
     },
     {
       id: 8,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/zapatilla.jpeg",
+      name: "Enterito",
+      price: 29.990,
+      img: [
+        "../../public/assets/Enterito1.jpeg",
+        "../../public/assets/Enterito2.jpeg",
+        "../../public/assets/Enterito3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Enterito Largo Mujer color Negro",
     },
     {
       id: 9,
-      name: "pantalon",
-      price: 300,
-      img: "../../public/assets/zapatilla2.jpeg",
+      name: "Chaqueta",
+      price: 49.990,
+      img: [
+        "../../public/assets/Chaqueta1.jpeg",
+        "../../public/assets/Chaqueta2.jpeg",
+        "../../public/assets/Chaqueta3.jpeg",
+      ],
       description:
-        "Some quick example text to build on the card title and make",
+        "Chaqueta negra cuerina",
     },
   ];
 
