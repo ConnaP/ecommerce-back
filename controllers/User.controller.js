@@ -57,7 +57,6 @@ const login = async (req, res) => {
     }
 
     if (userValidated.password === passwordHash) {
-      console.log(`coinciden`);
       const token = generateToken(userValidated);
       return res.status(200).json({
         message: "User logged in successfully",
@@ -116,7 +115,7 @@ const getUserById = async (req, res) => {
 
 const updateUser = async (req, res) => {
   const { _id, userUpdated } = req.body;
-  console.log(_id, userUpdated);
+  
   try {
     const resp = await User.findByIdAndUpdate(_id, userUpdated, { new: true });
     return res.status(200).json({

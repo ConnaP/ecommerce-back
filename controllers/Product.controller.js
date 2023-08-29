@@ -71,7 +71,7 @@ const products = async (req, res) => {
         "../../public/assets/FaldaShort3.jpeg",
       ],
       description:
-        "Falda Short Corta Algodón Mujer Color Negro",
+        "Falda Short Corta Algodón Mujer Negro",
     },
     {
       id: 7,

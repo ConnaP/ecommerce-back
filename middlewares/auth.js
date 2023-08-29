@@ -5,7 +5,6 @@ const secret = process.env.JWT_SECRET_KEY;
 
 const getToken = (req) => {
   const { authorization } = req.headers;
-  console.log(authorization);
 
   if (authorization) {
     const [type, token] = authorization.split(" ");
