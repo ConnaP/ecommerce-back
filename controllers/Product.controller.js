@@ -3,7 +3,7 @@ const products = async (req, res) => {
     {
       id: 1,
       name: "Jeans Wide Leg",
-      price: 19.990,
+      price: 19990,
       img: [
         "../../public/assets/pantalon1.jpeg",
         "../../public/assets/pantalon2.jpeg",
@@ -15,7 +15,7 @@ const products = async (req, res) => {
     {
       id: 2,
       name: "Polera Manga Corta",
-      price: 14.990,
+      price: 14990,
       img: [
         "../../public/assets/polera1.jpeg",
         "../../public/assets/polera2.jpeg",
@@ -27,7 +27,7 @@ const products = async (req, res) => {
     {
       id: 3,
       name: "Kimono",
-      price: 24.990,
+      price: 24990,
       img: [
         "../../public/assets/Kimono1.jpeg",
         "../../public/assets/kimono2.jpeg",
@@ -40,7 +40,7 @@ const products = async (req, res) => {
     {
       id: 4,
       name: "Chaleco Mujer Negro",
-      price: 24.990,
+      price: 24990,
       img: [
         "../../public/assets/chaleco1.jpeg",
         "../../public/assets/chaleco2.jpeg",
@@ -52,7 +52,7 @@ const products = async (req, res) => {
     {
       id: 5,
       name: "Falda Corta",
-      price: 19.990,
+      price: 19990,
       img: [
         "../../public/assets/falda1.jpeg",
         "../../public/assets/falda2.jpeg",
@@ -64,7 +64,7 @@ const products = async (req, res) => {
     {
       id: 6,
       name: "Falda Short",
-      price: 19.990,
+      price: 19990,
       img: [
         "../../public/assets/FaldaShort1.jpeg",
         "../../public/assets/FaldaShort2.jpeg",
@@ -76,7 +76,7 @@ const products = async (req, res) => {
     {
       id: 7,
       name: "Vestido Corto",
-      price: 24.990,
+      price: 24990,
       img: [
         "../../public/assets/Vestido1.jpeg",
         "../../public/assets/Vestido2.jpeg",
@@ -88,7 +88,7 @@ const products = async (req, res) => {
     {
       id: 8,
       name: "Enterito",
-      price: 29.990,
+      price: 29990,
       img: [
         "../../public/assets/Enterito1.jpeg",
         "../../public/assets/Enterito2.jpeg",
@@ -100,7 +100,7 @@ const products = async (req, res) => {
     {
       id: 9,
       name: "Chaqueta",
-      price: 49.990,
+      price: 49990,
       img: [
         "../../public/assets/Chaqueta1.jpeg",
         "../../public/assets/Chaqueta2.jpeg",
