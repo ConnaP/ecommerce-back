@@ -12,7 +12,7 @@ const register = async (req, res) => {
   if (!regexPassword.test(password)) {
     return res.status(401).json({
       message:
-        "Password must be at least 8 characters long and contain at least one number, one lowercase and one uppercase letter",
+        "La contraseña debe tener al menos 8 caracteres y contener al menos un número, una letra minúscula y una mayúscula.",
     });
   }
 
@@ -25,12 +25,23 @@ const register = async (req, res) => {
       password: hashedPassword,
     });
 
+    const searchUser = await User.findOne({email: emailLowerCase});
+
+    console.log(searchUser)
+
+    if(searchUser !== null) {
+      return res.status(401).json({
+        message:
+          "El usuario ya se encuentra resgistrado.",
+      });
+    }
+
     const resp = await user.save();
 
     const token = generateToken(resp);
 
     return res.status(201).json({
-      message: "User created",
+      message: "Usuario creado con exito!",
       token,
     });
   } catch (error) {
@@ -40,6 +51,7 @@ const register = async (req, res) => {
     });
   }
 };
+
 const login = async (req, res) => {
   const { email, password } = req.body;
 
