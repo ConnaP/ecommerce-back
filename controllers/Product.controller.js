@@ -5,9 +5,9 @@ const products = async (req, res) => {
       name: "Jeans Wide Leg",
       price: 19990,
       img: [
-        "../../public/assets/pantalon1.jpeg",
-        "../../public/assets/pantalon2.jpeg",
-        "../../public/assets/pantalon3.jpeg",
+        "pantalon1.jpeg",
+        "pantalon2.jpeg",
+        "pantalon3.jpeg",
       ],
       description:
         "Jeans Wide Leg Tiro Alto Mujer",
@@ -17,9 +17,9 @@ const products = async (req, res) => {
       name: "Polera Manga Corta",
       price: 14990,
       img: [
-        "../../public/assets/polera1.jpeg",
-        "../../public/assets/polera2.jpeg",
-        "../../public/assets/polera3.jpeg",
+        "polera1.jpeg",
+        "polera2.jpeg",
+        "polera3.jpeg",
       ],
       description:
         "Polera Manga Corta Algodón Rosada",
@@ -29,9 +29,9 @@ const products = async (req, res) => {
       name: "Kimono",
       price: 24990,
       img: [
-        "../../public/assets/Kimono1.jpeg",
-        "../../public/assets/kimono2.jpeg",
-        "../../public/assets/kimono3.jpeg",
+        "Kimono1.jpeg",
+        "kimono2.jpeg",
+        "kimono3.jpeg",
       ],
       description:
         "Kimono Mujer Manga Corta",
@@ -42,9 +42,9 @@ const products = async (req, res) => {
       name: "Chaleco Mujer Negro",
       price: 24990,
       img: [
-        "../../public/assets/chaleco1.jpeg",
-        "../../public/assets/chaleco2.jpeg",
-        "../../public/assets/chaleco3.jpeg",
+        "chaleco1.jpeg",
+        "chaleco2.jpeg",
+        "chaleco3.jpeg",
       ],
       description:
         "Chaleco Mujer Negro Con Brillos",
@@ -54,9 +54,9 @@ const products = async (req, res) => {
       name: "Falda Corta",
       price: 19990,
       img: [
-        "../../public/assets/falda1.jpeg",
-        "../../public/assets/falda2.jpeg",
-        "../../public/assets/falda3.jpeg",
+        "falda1.jpeg",
+        "falda2.jpeg",
+        "falda3.jpeg",
       ],
       description:
         "Falda Corta Algodón Mujer Celeste",
@@ -66,9 +66,9 @@ const products = async (req, res) => {
       name: "Falda Short",
       price: 19990,
       img: [
-        "../../public/assets/FaldaShort1.jpeg",
-        "../../public/assets/FaldaShort2.jpeg",
-        "../../public/assets/FaldaShort3.jpeg",
+        "FaldaShort1.jpeg",
+        "FaldaShort2.jpeg",
+        "FaldaShort3.jpeg",
       ],
       description:
         "Falda Short Corta Algodón Mujer Negro",
@@ -78,9 +78,9 @@ const products = async (req, res) => {
       name: "Vestido Corto",
       price: 24990,
       img: [
-        "../../public/assets/Vestido1.jpeg",
-        "../../public/assets/Vestido2.jpeg",
-        "../../public/assets/Vestido3.jpeg",
+        "Vestido1.jpeg",
+        "Vestido2.jpeg",
+        "Vestido3.jpeg",
       ],
       description:
         "Vestido Corto Mujer Color negro",
@@ -90,9 +90,9 @@ const products = async (req, res) => {
       name: "Enterito",
       price: 29990,
       img: [
-        "../../public/assets/Enterito1.jpeg",
-        "../../public/assets/Enterito2.jpeg",
-        "../../public/assets/Enterito3.jpeg",
+        "Enterito1.jpeg",
+        "Enterito2.jpeg",
+        "Enterito3.jpeg",
       ],
       description:
         "Enterito Largo Mujer color Negro",
@@ -102,9 +102,9 @@ const products = async (req, res) => {
       name: "Chaqueta",
       price: 49990,
       img: [
-        "../../public/assets/Chaqueta1.jpeg",
-        "../../public/assets/Chaqueta2.jpeg",
-        "../../public/assets/Chaqueta3.jpeg",
+        "Chaqueta1.jpeg",
+        "Chaqueta2.jpeg",
+        "Chaqueta3.jpeg",
       ],
       description:
         "Chaqueta negra cuerina",
