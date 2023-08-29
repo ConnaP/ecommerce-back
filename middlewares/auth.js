@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const { expressjwt } = require("express-jwt");
-const secret = process.env.JWT_SECRET_KEY;
+const secret = 'aQ*_1+°¡aP';
 
 const getToken = (req) => {
   const { authorization } = req.headers;
