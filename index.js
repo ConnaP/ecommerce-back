@@ -22,13 +22,6 @@ mongoose.connect(process.env.MONGO_URI + "tienda");
 
 const port = process.env.PORT;
 
-//creo la coleccion
-// const User = mongoose.model("User", {
-//   username: String,
-//   lastname: String,
-//   password: String,
-// });
-
 app.use(cors());
 app.use(express.json());
 app.use("/users", userRoutes);
@@ -42,12 +35,6 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-  //   const victor = new User({
-  //     username: "Victor",
-  //     lastname:"Briones",
-  //     password: "victor",
-  //   });
-  //   victor.save();
   res.status(200).json({
     mensaje: "ruta post",
     detail: "",
